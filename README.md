@@ -2,7 +2,7 @@
 This code is for "Infrared and Visible Image Fusion Based on Deep Decompostion Network and Saliency Analysis (DDNSA)" published in TMM2021
 
 # Citations
-If you use this code, please cite the fllowing article.
+If you use this code, please cite the following article.
 
 @article{jian2022infrared,\
   title={Infrared and visible image fusion based on deep decomposition network and saliency analysis},\
