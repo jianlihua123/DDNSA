@@ -1,0 +1,25 @@
+{
+    "?batchSize": "training batch size",
+    "batchSize": 64,
+    "?nEpocks": "number of epochs to train for",
+    "nEpochs": 100,
+    "?lr": "Learning Rate. Default=1e-4",
+    "lr": 1e-5,
+    "?step": "Sets the learning rate to the initial LR decayed by momentum every n epochs, Default: n=10",
+    "step": 100,
+    "?start_epoch": "Manual epoch number (useful on restarts)",
+    "start_epoch": 1,
+    "?threads": "Number of threads for data loader to use, Default: 1",
+    "threads": 0,
+    "?momentum": "Momentum, Default: 0.5",
+    "momentum": 0.5,
+    "?wight-decay": "weight decay, Default: 1e-4",
+    "weight-decay": 5e-5,
+    "?pretrained": "path to pretrained model (default: none)",
+    "pretrained": "",
+
+    "?train_file_path": "path to training data, including LR HR_2X HR_4X",
+    "train_file_path": "./train/TrainData490",
+    "?eval_file": "evaluation images",
+    "eval_file": "/home/meng/lihu/dataset/Set5"
+}
